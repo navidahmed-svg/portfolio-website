@@ -1,24 +1,40 @@
 body {
+  margin: 0;
   font-family: Arial;
-  text-align: center;
-  background-color: #000000;
 }
 
-h1 {
-  color: rgb(0, 140, 14);
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 10px 20px;
 }
-p {
-  color:rgb(242, 255, 0);
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
-h2 {
-  color: rgb(0, 140, 14);
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
-li {
-  color: rgb(242, 255, 0);
+
+section {
+  padding: 40px;
+  text-align: center;
 }
-h2 {
-  color:rgb(0, 140, 14);
+
+#about {
+  background: #f4f4f4;
 }
-p {
-  color:rgb(242, 255, 0)
+
+#projects {
+  background: #ddd;
+}
+
+#contact {
+  background: #bbb;
 }
