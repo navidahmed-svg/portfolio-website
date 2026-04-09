@@ -1,40 +1,71 @@
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  background: black;
-  color: white;
-  padding: 10px 20px;
+  padding: 15px 30px;
+  background: #020617;
+}
+
+nav h2 {
+  color: #38bdf8;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #38bdf8;
 }
 
 section {
-  padding: 40px;
+  padding: 60px 20px;
   text-align: center;
 }
 
 #about {
-  background: #f4f4f4;
+  background: #0f172a;
 }
 
 #projects {
-  background: #ddd;
+  background: #020617;
 }
 
 #contact {
-  background: #bbb;
+  background: #0f172a;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  color: #38bdf8;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: white;
 }
